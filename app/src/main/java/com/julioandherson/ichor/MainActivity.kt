@@ -3,6 +3,10 @@ package com.julioandherson.ichor
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
+import android.view.Menu
+import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View
 import android.widget.Button
 
@@ -24,5 +28,21 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ChooseClinicalProfileActivity::class.java)
             startActivity(intent)
         })
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.actions, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_info -> {
+                Log.d("saasdsad", "sdsadsadsad")
+            }
+        }
+
+        return super.onOptionsItemSelected(item)
     }
 }
