@@ -39,10 +39,10 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_info -> {
-                Log.d("saasdsad", "sdsadsadsad")
+                val intent = Intent(this, AboutActivity::class.java)
+                startActivity(intent)
             }
         }
-
         return super.onOptionsItemSelected(item)
     }
 }

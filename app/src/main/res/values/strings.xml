@@ -7,6 +7,73 @@
     <string name="kidney_button2">ClCr = 15-30ml/min</string>
     <string name="kidney_button3">ClCr &lt; 15ml/min</string>
     <string name="kidney_button4">pacientes em hd com fa não valvar</string>
+    <string name="title_activity_about">Referências</string>
+    <string name="large_text">
+        "1. Leung MD. Direct oral anticoagulants and parenteral direct thrombin inhibitors: Dosing "
+        "and adverse effects. Post TW, ed. UpToDate. Waltham, MA: UpToDate Inc.\n"
+        "https://www.uptodate.com. Acessado em 16 de Dezembro de 2019;\n\n"
+
+        "2. ORDI-ROS, J. Rivaroxaban Versus Vitamin K Antagonist in Antiphospholipid "
+        "Syndrome: A Randomized Noninferiority Trial. PubMed, 2020. Disponível em: "
+        "https://www.ncbi.nlm.nih.gov/m/pubmed/31610549/. Acesso em: 18 de Janeiro de 2020;\n\n"
+
+        "3. DJULBEGOVIC, M. LEE, A.I. An Update on the “Novel” and Direct Oral "
+        "Anticoagulants, and Long-Term Anticoagulant Therapy. Clin Chest Med 39 (2018) 583–"
+        "593;\n\n"
+
+        "4. Bertoletti Laurent, Ollier Edouard, Duvillard C´ecile, Delavenne Xavier, Beyens Marie-"
+        "No¨elle, Magalhaes Elodie DE, Bellet Florelle, Basset Thierry, Mismetti Patrick, Laporte"
+        "Silvy.Direct oral anticoagulants: Current indications and unmet needs in the treatment of"
+        "venous thromboembolism. Pharmacological Research"
+        "http://dx.doi.org/10.1016/j.phrs.2016.06.023\n\n"
+
+        "5. BARR, D.; EPPS, Q.J. Direct oral anticoagulants: a review of common medication erros."
+        "J Thromb Thrombol. 2018;\n\n"
+
+        "6. ANNIE, M et al. Comparison of an Oral Factor Xa Inhibitor With Low Molecular Weight "
+        "Heparin in Patients With Cancer With Venous Thromboembolism: Results of a "
+        "Randomized Trial (SELECT-D). J Clin Oncol 36:2017-2023\n\n"
+
+        "7. GARY, E et al. Edoxaban for the Treatment of Cancer-Associated Venous "
+        "Thromboembolism. N Engl J Med 2018;378:615-24.\n\n"
+
+        "8. FARGE, D et al. 2019 international clinical practice guidelines for the treatment and "
+        "prophylaxis of venous thromboembolism in patients with câncer. Lancet Oncol "
+        "September 3, 2019; S1470-2045(19)30336-5\n\n"
+
+        "9. SCHULMAN, S et al. Dabigatran versus Warfarin in the Treatment of Acute Venous "
+        "Thromboembolism. N Engl J Med 2009; 361:2342-2352. December 10, 2009\n\n"
+
+        "10. BAUERSACHS, R et al. Oral Rivaroxaban for Symptomatic Venous Thromboembolism."
+        "N Engl J Med 2010; 363:2499-2510. December 23, 2010\n\n"
+
+        "11. AGNELLI, G et al. Oral Apixaban for the Treatment of Acute Venous "
+        "Thromboembolism. N Engl J Med 2013; 369:799-808. August 29, 2013\n\n"
+
+        "12. GARY, E et al. Edoxaban for the Treatment of Cancer-Associated Venous "
+        "Thromboembolism. N Engl J Med 2018;378:615-24.\n\n"
+
+        "13. KUMBHANI, D.J. Treatment of acute venous thromboembolism with dabigatran or "
+        "warfarin and pooled analysis. Circulation. 2014 Feb 18;129(7):764-72\n\n"
+
+        "14. BULLER, H.R. et al. Oral Rivaroxaban for the Treatment of Symptomatic Pulmonary "
+        "Embolism. N Engl J Med 2012; 366:1287-1297. April 5, 2012\n\n"
+
+        "15. SCHULMAN, S. et al. Extended Use of Dabigatran, Warfarin, or Placebo in Venous "
+        "Thromboembolism. N Engl J Med 2013; 368:709-718. February 21, 2013\n\n"
+
+        "16. WELLS, P.S. et al. Long-term Anticoagulation With Rivaroxaban for Preventing "
+        "Recurrent VTE: A Benefit-Risk Analysis of EINSTEIN-Extension. Chest. 2016 "
+        "Nov;150(5):1059-1068\n\n"
+
+        "17. AGNELLI, G. et al. Apixaban for Extended Treatment of Venous Thromboembolism. N "
+        "Engl J Med 2013; 368:699-708. February 21, 2013\n\n"
+
+        "18. SIONTIS, K.C. et al. Outcomes Associated With Apixaban Use in Patients With End-"
+        "Stage Kidney Disease and Atrial Fibrillation in the United States. Circulation. 2018 Oct "
+        "9;138(15):1519-1529"
+    </string>
+    <string name="action_settings">Settings</string>
 
 
 </resources>
