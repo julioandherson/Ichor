@@ -9,6 +9,7 @@ import android.view.MenuInflater
 import android.view.MenuItem
 import android.view.View
 import android.widget.Button
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,10 +19,13 @@ class MainActivity : AppCompatActivity() {
 
         val yesButton = findViewById<Button>(R.id.yesMainButton)
         val noButton = findViewById<Button>(R.id.noMainButton)
+        var result = findViewById<TextView>(R.id.mainResultTextView)
 
         yesButton.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this, OncologicalDiseaseActivity::class.java)
-            startActivity(intent)
+            // TODO: Remover OncologicalActivity e LesionTGIActivity
+//            val intent = Intent(this, OncologicalDiseaseActivity::class.java)
+//            startActivity(intent)
+            result.setText("Usar Heparina ou Varfarina")
         })
 
         noButton.setOnClickListener(View.OnClickListener {

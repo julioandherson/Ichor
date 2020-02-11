@@ -31,7 +31,10 @@ class KidneyFunctionActivity : AppCompatActivity() {
         })
 
         button2.setOnClickListener(View.OnClickListener {
-            var result = "TODO"
+            var result = "Paciente tem FA não-valvar?\n"
+            result += "Sim\n"
+            result += "   1. Primeira escolha: Apixabana é a droga com maior nível de evidência para pacientes com lesão renal, porém está entre as medicações de maior custo\n"
+            result += "   2. Segunda escolha: Edoxabana"
             resultKidneyTextView.setText(result)
         })
 
