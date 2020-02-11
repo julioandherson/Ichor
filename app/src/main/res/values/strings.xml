@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Ichor</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="reset">Reiniciar</string>
+    <string name="kidney_button1">ClCr &gt; 30ml/min</string>
+    <string name="kidney_button2">ClCr = 15-30ml/min</string>
+    <string name="kidney_button3">ClCr &lt; 15ml/min</string>
+    <string name="kidney_button4">pacientes em hd com fa não valvar</string>
+
+
+</resources>
