@@ -20,7 +20,7 @@ class GastrointestinalDiseaseActivity : AppCompatActivity() {
         var result = findViewById<TextView>(R.id.resultGastroTextView)
 
         noGastroButton.setOnClickListener(View.OnClickListener {
-            var resultString = "Custo para três meses de tratamento:\n"
+            var resultString = "Avaliar custo médio. Custo para três meses de tratamento:\n"
             resultString += "i. Até R$400,00: Dabigatrana\n"
             resultString += "ii. Até R$700,00: Edoxabana\n"
             resultString += "iii. Até R$1.100,00: Rivaroxabana ou Apixabana"

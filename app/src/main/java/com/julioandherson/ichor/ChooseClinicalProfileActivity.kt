@@ -29,7 +29,8 @@ class ChooseClinicalProfileActivity : AppCompatActivity() {
         })
 
         elderlyButton.setOnClickListener(View.OnClickListener {
-
+            val intent = Intent(this, ElderlyActivity::class.java)
+            startActivity(intent)
         })
 
         gastroButton.setOnClickListener(View.OnClickListener {

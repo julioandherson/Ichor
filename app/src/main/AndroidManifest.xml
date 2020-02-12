@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ElderlyActivity"></activity>
         <activity
             android:name=".AboutActivity"
             android:label="@string/title_activity_about"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".GynecologicalActivity" />
         <activity android:name=".GastrointestinalDiseaseActivity" />
-        <activity android:name=".ElderlyActivity" />
         <activity android:name=".ObesityActivity" />
         <activity android:name=".KidneyFunctionActivity" />
         <activity android:name=".ChooseClinicalProfileActivity" />

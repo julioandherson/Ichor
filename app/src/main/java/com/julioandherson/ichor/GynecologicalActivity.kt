@@ -19,7 +19,7 @@ class GynecologicalActivity : AppCompatActivity() {
         val textView = findViewById<TextView>(R.id.gynecologicalResultTextView)
 
         noButton.setOnClickListener(View.OnClickListener {
-            var result = "Custo para três meses de tratamento:\n"
+            var result = "Avaliar custo médio. Custo para três meses de tratamento:\n"
             result += "i. Até R$400,00: Dabigatrana\n"
             result += "ii. Até R$700,00: Edoxabana\n"
             result += "iii. Até R$1.100,00: Rivaroxabana ou Apixabana"

@@ -19,7 +19,7 @@ class ObesityActivity : AppCompatActivity() {
         var resultTextView = findViewById<TextView>(R.id.obesityResultTextView)
 
         noButton.setOnClickListener(View.OnClickListener {
-            var result = "Custo para três meses de tratamento:\n"
+            var result = "Avaliar custo médio. Custo para três meses de tratamento:\n"
             result += "1. Até R$400,00: Dabigatrana\n"
             result += "2. Até R$700,00: Edoxabana\n"
             result += "3. Até R$1.100,00: Rivaroxabana ou Apixabana"
