@@ -16,6 +16,7 @@
         android:layout_marginEnd="194dp"
         android:layout_marginRight="194dp"
         android:text="Idoso?"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

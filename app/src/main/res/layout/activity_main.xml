@@ -10,11 +10,12 @@
     <TextView
         android:id="@+id/textField"
         android:layout_width="0dp"
-        android:layout_height="170dp"
+        android:layout_height="250dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginRight="16dp"
         android:text="Os DOACs não devem ser iniciados para mulheres gestantes ou em amamentação, pacientes com prótese cardíaca valvar, SAAF, trombofilias, sangramento ativo, DHC Child B-C com coagulopatia ou quando em uso de drogas que interajam entre si (p ex: Carbamazepina, Fenitoína, Rifampicina, Claritromicina, Diltiazem, Cetoconazol, Itraconazol, Ritonavir, Verapamil, AAS, AINEs). Paciente com contra indicação para receber DOAC? "
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
