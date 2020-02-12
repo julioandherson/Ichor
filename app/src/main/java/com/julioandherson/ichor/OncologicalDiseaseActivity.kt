@@ -24,10 +24,13 @@ class OncologicalDiseaseActivity : AppCompatActivity() {
 
         yesButton.setOnClickListener(View.OnClickListener {
             var result = "Paciente apresenta lesão de TGI alto ou TGU?\n"
-            result += "i. Sim: Usar Heparina ou Fundaparinux\n\n"
+            result += "i. Sim: Usar Heparina ou Fundaparinux\n"
+            result += "   1. Até R$700,00: Edoxabana\n"
+            result += "   2. Até R$1.100,00: Rivaroxabana ou Apixabana\n"
             result += "ii. Não: Considerar custo do tratamento. Valor para três meses de tratamento:\n"
-            result += "1. Até R$700,00: Edoxabana\n"
-            result += "2. Até R$1.100,00: Rivaroxabana ou Apixabana"
+            result += "   1. Até R$400,00: Dabigatrana\n"
+            result += "   2. Até R$700,00: Edoxabana\n"
+            result += "   3. Até R$1.100,00: Rivaroxabana ou Apixabana"
 
             resultText.setText(result)
         })

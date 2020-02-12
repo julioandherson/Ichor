@@ -17,8 +17,13 @@ class ElderlyActivity : AppCompatActivity() {
         val result = findViewById<TextView>(R.id.elderlyResultTextView)
 
         noButton.setOnClickListener(View.OnClickListener {
-            result.setText("Ok")
+            var resultText = "Avaliar custo médio. Custo para três meses de tratamento:\n"
+            resultText += "1. Até R$400,00: Dabigatrana\n"
+            resultText += "2. Até R$700,00: Edoxabana\n"
+            resultText += "3. Até R$1.100,00: Rivaroxabana ou Apixabana"
+            result.setText(resultText)
         })
+
         yesButton.setOnClickListener(View.OnClickListener {
             result.setText("Evitar uso do Dabigatrana")
         })
