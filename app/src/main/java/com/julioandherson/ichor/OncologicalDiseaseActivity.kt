@@ -19,7 +19,11 @@ class OncologicalDiseaseActivity : AppCompatActivity() {
         var resultText = findViewById<TextView>(R.id.resultOncologyTextView)
         val resetButton = findViewById<Button>(R.id.oncologicalResetButton)
         noButton.setOnClickListener(View.OnClickListener {
-            resultText.setText("Usar Heparina ou Varfarina")
+            var result = "Considerar custo do tratamento. Valor para três meses de tratamento:\n"
+            result += "   1. Até R$400,00: Dabigatrana\n"
+            result += "   2. Até R$700,00: Edoxabana\n"
+            result += "   3. Até R$1.100,00: Rivaroxabana ou Apixabana"
+            resultText.setText(result)
         })
 
         yesButton.setOnClickListener(View.OnClickListener {
