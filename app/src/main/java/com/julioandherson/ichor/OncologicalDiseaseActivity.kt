@@ -23,8 +23,13 @@ class OncologicalDiseaseActivity : AppCompatActivity() {
         })
 
         yesButton.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this, LesionTGI::class.java)
-            startActivity(intent)
+            var result = "Paciente apresenta lesão de TGI alto ou TGU?\n"
+            result += "i. Sim: Usar Heparina ou Fundaparinux\n\n"
+            result += "ii. Não: Considerar custo do tratamento. Valor para três meses de tratamento:\n"
+            result += "1. Até R$700,00: Edoxabana\n"
+            result += "2. Até R$1.100,00: Rivaroxabana ou Apixabana"
+
+            resultText.setText(result)
         })
     }
 }

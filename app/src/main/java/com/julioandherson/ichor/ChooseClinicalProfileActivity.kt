@@ -17,6 +17,7 @@ class ChooseClinicalProfileActivity : AppCompatActivity() {
         val elderlyButton = findViewById<Button>(R.id.button3)
         val gastroButton = findViewById<Button>(R.id.button4)
         val gynecologicalButton = findViewById<Button>(R.id.button5)
+        val oncologicalButton = findViewById<Button>(R.id.chooseOncologyButton)
 
         kidneyFunctionButton.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, KidneyFunctionActivity::class.java)
@@ -40,6 +41,11 @@ class ChooseClinicalProfileActivity : AppCompatActivity() {
 
         gynecologicalButton.setOnClickListener(View.OnClickListener {
             val intent = Intent(this, GynecologicalActivity::class.java)
+            startActivity(intent)
+        })
+
+        oncologicalButton.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, OncologicalDiseaseActivity::class.java)
             startActivity(intent)
         })
     }
