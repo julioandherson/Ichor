@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.julioandherson.ichor.fragments.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_kidneyFunctionFragment"
+            app:destination="@id/btnKidney" />
+        <action
+            android:id="@+id/action_mainFragment_to_obesityFragment"
+            app:destination="@id/btnObesity" />
+        <action
+            android:id="@+id/action_mainFragment_to_oldManFragment"
+            app:destination="@id/btnOldMan" />
+        <action
+            android:id="@+id/action_mainFragment_to_gastroFragment"
+            app:destination="@id/btnGastro" />
+        <action
+            android:id="@+id/action_mainFragment_to_gynecologicalFragment"
+            app:destination="@id/btnGynecological" />
+        <action
+            android:id="@+id/action_mainFragment_to_oncologicalFragment"
+            app:destination="@id/btnOncological" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/btnKidney"
+        android:name="com.julioandherson.ichor.fragments.KidneyFunctionFragment"
+        android:label="fragment_kidney_function"
+        tools:layout="@layout/fragment_kidney_function" />
+    <fragment
+        android:id="@+id/btnObesity"
+        android:name="com.julioandherson.ichor.fragments.ObesityFragment"
+        android:label="fragment_obesity"
+        tools:layout="@layout/fragment_obesity" />
+    <fragment
+        android:id="@+id/btnOldMan"
+        android:name="com.julioandherson.ichor.fragments.OldManFragment"
+        android:label="fragment_old_man"
+        tools:layout="@layout/fragment_old_man" />
+    <fragment
+        android:id="@+id/btnGastro"
+        android:name="com.julioandherson.ichor.fragments.GastroFragment"
+        android:label="fragment_gastro"
+        tools:layout="@layout/fragment_gastro" />
+    <fragment
+        android:id="@+id/btnGynecological"
+        android:name="com.julioandherson.ichor.fragments.GynecologicalFragment"
+        android:label="fragment_gynecological"
+        tools:layout="@layout/fragment_gynecological" />
+    <fragment
+        android:id="@+id/btnOncological"
+        android:name="com.julioandherson.ichor.fragments.OncologicalFragment"
+        android:label="fragment_oncological"
+        tools:layout="@layout/fragment_oncological" />
+
+</navigation>
