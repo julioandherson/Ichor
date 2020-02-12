@@ -1,5 +1,6 @@
 package com.julioandherson.ichor
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -15,6 +16,7 @@ class ElderlyActivity : AppCompatActivity() {
         val noButton = findViewById<Button>(R.id.elderlyNoButton)
         val yesButton = findViewById<Button>(R.id.elderlyYesButton)
         val result = findViewById<TextView>(R.id.elderlyResultTextView)
+        val resetButton = findViewById<Button>(R.id.elderlyResetButton)
 
         noButton.setOnClickListener(View.OnClickListener {
             var resultText = "Avaliar custo médio. Custo para três meses de tratamento:\n"
@@ -26,6 +28,11 @@ class ElderlyActivity : AppCompatActivity() {
 
         yesButton.setOnClickListener(View.OnClickListener {
             result.setText("Evitar uso do Dabigatrana")
+        })
+
+        resetButton.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, ChooseClinicalProfileActivity::class.java)
+            startActivity(intent)
         })
     }
 }

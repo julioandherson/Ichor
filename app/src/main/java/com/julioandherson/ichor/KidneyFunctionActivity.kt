@@ -49,7 +49,7 @@ class KidneyFunctionActivity : AppCompatActivity() {
         })
 
         resetButton.setOnClickListener(View.OnClickListener {
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, ChooseClinicalProfileActivity::class.java)
             startActivity(intent)
         })
     }

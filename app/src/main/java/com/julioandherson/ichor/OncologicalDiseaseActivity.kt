@@ -17,7 +17,7 @@ class OncologicalDiseaseActivity : AppCompatActivity() {
         val noButton = findViewById<Button>(R.id.noOncologyButton)
         val yesButton = findViewById<Button>(R.id.yesOncologyButton)
         var resultText = findViewById<TextView>(R.id.resultOncologyTextView)
-
+        val resetButton = findViewById<Button>(R.id.oncologicalResetButton)
         noButton.setOnClickListener(View.OnClickListener {
             resultText.setText("Usar Heparina ou Varfarina")
         })
@@ -33,6 +33,11 @@ class OncologicalDiseaseActivity : AppCompatActivity() {
             result += "   3. Até R$1.100,00: Rivaroxabana ou Apixabana"
 
             resultText.setText(result)
+        })
+
+        resetButton.setOnClickListener(View.OnClickListener {
+            val intent = Intent(this, ChooseClinicalProfileActivity::class.java)
+            startActivity(intent)
         })
     }
 }
