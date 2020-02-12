@@ -11,23 +11,8 @@
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
-            android:id="@+id/action_mainFragment_to_kidneyFunctionFragment"
-            app:destination="@id/btnKidney" />
-        <action
-            android:id="@+id/action_mainFragment_to_obesityFragment"
-            app:destination="@id/btnObesity" />
-        <action
-            android:id="@+id/action_mainFragment_to_oldManFragment"
-            app:destination="@id/btnOldMan" />
-        <action
-            android:id="@+id/action_mainFragment_to_gastroFragment"
-            app:destination="@id/btnGastro" />
-        <action
-            android:id="@+id/action_mainFragment_to_gynecologicalFragment"
-            app:destination="@id/btnGynecological" />
-        <action
-            android:id="@+id/action_mainFragment_to_oncologicalFragment"
-            app:destination="@id/btnOncological" />
+            android:id="@+id/action_mainFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
     </fragment>
 
     <fragment
@@ -60,5 +45,34 @@
         android:name="com.julioandherson.ichor.fragments.OncologicalFragment"
         android:label="fragment_oncological"
         tools:layout="@layout/fragment_oncological" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.julioandherson.ichor.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_btnKidney"
+            app:destination="@id/btnKidney" />
+        <action
+            android:id="@+id/action_profileFragment_to_btnObesity"
+            app:destination="@id/btnObesity" />
+        <action
+            android:id="@+id/action_profileFragment_to_btnOldMan"
+            app:destination="@id/btnOldMan" />
+        <action
+            android:id="@+id/action_profileFragment_to_btnGastro"
+            app:destination="@id/btnGastro" />
+        <action
+            android:id="@+id/action_profileFragment_to_btnGynecological"
+            app:destination="@id/btnGynecological" />
+        <action
+            android:id="@+id/action_profileFragment_to_btnOncological"
+            app:destination="@id/btnOncological" />
+    </fragment>
+    <fragment
+        android:id="@+id/referenceFragment"
+        android:name="com.julioandherson.ichor.fragments.ReferenceFragment"
+        android:label="fragment_reference"
+        tools:layout="@layout/fragment_reference" />
 
 </navigation>

@@ -7,7 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.Navigation
-
 import com.julioandherson.ichor.R
 import kotlinx.android.synthetic.main.fragment_main.view.*
 
@@ -36,25 +35,16 @@ class MainFragment : Fragment(), View.OnClickListener {
     }
 
     private fun click() {
-        appView.btnKidney.setOnClickListener(this)
-        appView.btnObesity.setOnClickListener(this)
-        appView.btnOldMan.setOnClickListener(this)
-        appView.btnGastro.setOnClickListener(this)
-        appView.btnGynecological.setOnClickListener(this)
-        appView.btnOncological.setOnClickListener(this)
+        appView.btnNo.setOnClickListener(this)
+        appView.btnYes.setOnClickListener(this)
     }
 
     override fun onClick(view: View) {
 
-        when(view.id) {
-            R.id.btnKidney -> Navigation.findNavController(view).navigate(R.id.action_mainFragment_to_kidneyFunctionFragment)
-            R.id.btnObesity -> Navigation.findNavController(view).navigate(R.id.action_mainFragment_to_obesityFragment)
-            R.id.btnOldMan -> Navigation.findNavController(view).navigate(R.id.action_mainFragment_to_oldManFragment)
-            R.id.btnGastro -> Navigation.findNavController(view).navigate(R.id.action_mainFragment_to_gastroFragment)
-            R.id.btnGynecological -> Navigation.findNavController(view).navigate(R.id.action_mainFragment_to_gynecologicalFragment)
-            R.id.btnOncological -> Navigation.findNavController(view).navigate(R.id.action_mainFragment_to_oncologicalFragment)
+        when (view.id) {
+            R.id.btnNo -> Navigation.findNavController(view).navigate(R.id.action_mainFragment_to_profileFragment)
+            R.id.btnYes -> true //Navigation.findNavController(view).navigate(R.id.action_profileFragment_to_btnObesity)
+
         }
-
     }
-
 }
