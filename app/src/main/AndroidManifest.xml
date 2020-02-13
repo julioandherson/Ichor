@@ -13,15 +13,24 @@
         <activity
             android:name=".AboutActivity"
             android:label="@string/title_activity_about"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".GynecologicalActivity" />
-        <activity android:name=".GastrointestinalDiseaseActivity" />
-        <activity android:name=".ObesityActivity" />
-        <activity android:name=".KidneyFunctionActivity" />
-        <activity android:name=".ChooseClinicalProfileActivity" />
-        <activity android:name=".LesionTGI" />
-        <activity android:name=".OncologicalDiseaseActivity" />
+        <activity android:name=".GynecologicalActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".GastrointestinalDiseaseActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ObesityActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".KidneyFunctionActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ChooseClinicalProfileActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".LesionTGI"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".OncologicalDiseaseActivity"
+                  android:screenOrientation="portrait"/>
         <activity android:name=".MainActivity">
+            android:screenOrientation="portrait"
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
